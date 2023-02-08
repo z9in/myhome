@@ -1,0 +1,76 @@
+/* WORKS.CSS */
+
+.works_main {
+    width: 100%;
+    padding: 100px;
+}
+.works_main h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.works_main .individual_item {
+    width: 1340px;
+    display: flex;
+    padding: 60px;
+    margin-bottom: 84px;
+    
+}
+.works_main .individual_item img {
+    width: 610px;
+    height: 410px;
+    margin-right: 30px;
+    
+}
+.works_main .individual_item .works_item_details {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.works_main .individual_item .works_item_details h2 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.works_main .individual_item .works_item_details h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.works_main .individual_item .works_item_details ul {
+    list-style-type: disc;
+    margin-left: 15px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+.works_main .individual_item .works_item_details li {
+    margin-bottom: 10px;   
+}
+.works_main .individual_item .works_item_details .works_btn {
+    width: 100%;
+    margin-top: 10px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-around;
+    /* outline: 1px solid red; */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.works_main .individual_item .works_item_details .works_btn a {
+    /* display: inline-block; */
+    width: 150px;
+    height: 40px;
+    border: 2px solid #ccc;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    
+}
+.works_main .individual_item .works_item_details .works_btn a:hover {
+    border: none;
+    background-color: black;
+    color: white;
+}

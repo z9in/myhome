@@ -1,0 +1,53 @@
+/* ABOUT.CSS */
+.about_main {
+    width: 100%;
+    height: calc(100% - 100px);
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.about_main h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+.about_main .about_details {
+    /* outline: 1px solid red; */
+    padding-left: 150px;
+    display: flex;
+}
+.about_main .about_details h2 {
+    width: 210px;
+    height: 46px;
+    margin-right: 133px;
+}
+.about_main .about_details .about_details_text {
+    width: 747px;
+    margin-bottom: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+/* .about_main .about_details .about_details_text {
+    width: 100%;
+} */
+.about_main .about_details .about_details_text li {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.about_main .about_info .about_details_text .about_details_link {
+    width: 55px;
+    /* text-align: center; */
+    /* outline: 1px solid red; */
+
+}
+.about_main .about_info .about_details_text .about_details_link_span {
+    width: 25px;
+    text-align: center;
+    /* outline: 1px solid red; */
+
+}
+
+.about_main .about_info .about_details_text li:first-child {
+    width: 100%;
+    text-align: left;
+}
