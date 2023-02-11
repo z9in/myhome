@@ -16,7 +16,7 @@ a {
 }
 
 .container {
-    max-width: 1520px;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     padding-top: 100px;
@@ -25,13 +25,14 @@ a {
 
 /* header */
 header {
-    max-width: 1520px;
+    width: 100%;
     height: 100px;
     background-color: white;
     border-bottom: 2px solid #ccc;
     position: fixed;
     left: calc(50%-1520px/2);
     top: 0;
+    /* outline: 1px solid red; */
 }
 
 header h1 {
@@ -42,7 +43,7 @@ header h1 {
 
 header nav {
     position: absolute;
-    max-width: 325px;
+    width: 325px;
     height: 20px;
     right: 6%;
     top: 45%;
@@ -102,4 +103,7 @@ header nav .nav_works:hover {
 header nav .nav_works:hover .depth2 {
     max-height: 100px;
     /* background-color: #ccc; */
+}
+header > img {
+    display: none;
 }
