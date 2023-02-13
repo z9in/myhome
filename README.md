@@ -1,3 +1,3 @@
 # myhome
 
-### https://z9in.github.io/myhome/works.html
+### https://z9in.github.io/myhome
