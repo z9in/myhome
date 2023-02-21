@@ -53,7 +53,7 @@ header nav {
     top: 100px;
     width: 100%;
     height: calc(100vh - 100px);
-    outline: 1px solid red;
+    z-index: 10;
 }
 header nav .depth1 {
     width: 100%;
