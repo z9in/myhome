@@ -14,7 +14,6 @@ let content11 = document.getElementById("contents1");
 let content22 = document.getElementById("contents2");
 let githubEl = document.getElementById("github");
 let siteEl = document.getElementById("site");
-console.log(titleEl);
 itemEls.forEach((e) => {
   e.addEventListener("click", () => {
     let item = data.data.find((a) => a.name == e.children[0].alt);
