@@ -2,7 +2,7 @@ const data = [
   {
     name: "toilet_search",
     img: "https://z9in.github.io/myhome/images/toilet_react.jpg",
-    title: "공중화장 검색",
+    title: "공중화장실 검색",
     detales: [
       "공공데이터 활용 : 경기도 공중화장실 위치 데이터",
       "카카오 MAP API활용",
