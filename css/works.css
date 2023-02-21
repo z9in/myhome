@@ -173,7 +173,7 @@
   .works_main .portfolio_list {
     width: 100%;
     height: 20%;
-    overflow: hidden;
+    overflow: scroll;
     position: relative;
     /* outline: 1px solid red; */
     padding: 5px;
