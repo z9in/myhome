@@ -41,6 +41,7 @@
     overflow: hidden;
     padding: 10px;
     cursor: pointer;
+    background-color: #ccc;
   }
   .works_main .portfolio_list .slate img {
     /* width: 100%; */
