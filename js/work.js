@@ -105,7 +105,6 @@ right_handleEl.addEventListener("click", () => {
 });
 
 siteEl.addEventListener("click", (e) => {
-  console.log(e.target.innerText)
   if(e.target.innerText=="다운로드"){
     if (window.confirm("다운로드하시겠습니까?")) {
   } else {
