@@ -1,7 +1,7 @@
 const data = [
   {
     name: "toilet_search",
-    img: "https://z9in.github.io/myhome/images/toilet_react.jpg",
+    img: "https://z9in.github.io/myhome/images/toilet.jpg",
     title: "공중화장실 검색",
     detales: [
       "공공데이터 활용 : 경기도 공중화장실 위치 데이터",
@@ -17,7 +17,7 @@ const data = [
   },
   {
     name: "weather_app",
-    img: "https://z9in.github.io/myhome/images/weather_react.jpg",
+    img: "https://z9in.github.io/myhome/images/weather.jpg",
     title: "오늘의 날씨",
     detales: [
       "OpenWeatherMap API 활용",
@@ -36,7 +36,7 @@ const data = [
   },
   {
     name: "new_year",
-    img: "https://z9in.github.io/myhome/images/new_year.jpg",
+    img: "https://z9in.github.io/myhome/images/newyear.jpg",
     title: "신년 인사",
     detales: [
       "추가적인 자료를 수집, 전국 기준으로 진행",
@@ -52,7 +52,7 @@ const data = [
   },
   {
     name: "team_project_1",
-    img: "https://z9in.github.io/myhome/images/team_1.jpg",
+    img: "https://z9in.github.io/myhome/images/team1.jpg",
     title: "TEAM PROJECT1",
     detales: [
       "연구정보, 제품정보 페이지 작성",
@@ -68,7 +68,7 @@ const data = [
   },
   {
     name: "team_project_2",
-    img: "https://z9in.github.io/myhome/images/team_2.jpg",
+    img: "https://z9in.github.io/myhome/images/team2.jpg",
     title: "TEAM PROJECT2",
     detales: [
       "sqlite를 활용한 데이터베이스 구축",
