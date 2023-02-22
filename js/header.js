@@ -24,3 +24,9 @@ toggle.addEventListener("click", () => {
     navEl.style.display = "flex";
   }
 });
+
+let pdfDown = document.getElementById('pdf');
+
+pdfDown.addEventListener('click',()=>{
+    window.comfirm('다운로드하시겠습까?')
+})
