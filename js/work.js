@@ -104,3 +104,13 @@ right_handleEl.addEventListener("click", () => {
     }
   }
 });
+
+siteEl.addEventListener("click", (e) => {
+  if(e.target.innerText=="다운로드"){
+    if (window.confirm("다운로드하시겠습니까?")) {
+  } else {
+    e.preventDefault();
+    window.location.reload("./index.html");
+  }
+  }  
+});
