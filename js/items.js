@@ -31,8 +31,8 @@ const data = [
       "지도 클릭 외에 지역 선택 혹은 검색할 수 있는 기능 반영",
     ],
     github: "https://github.com/z9in/weather_app_react_native",
-    siteName: "바로가기",
-    site: "",
+    siteName: "다운로드",
+    site: " https://expo.dev/artifacts/eas/3RkCsLvsRM8KM6XozWtQEP.apk",
   },
   {
     name: "new_year",
