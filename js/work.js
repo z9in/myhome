@@ -17,7 +17,6 @@ let siteEl = document.getElementById("site");
 itemEls.forEach((e) => {
   e.addEventListener("click", () => {
     let item = data.data.find((a) => a.name == e.children[0].alt);
-    console.log(item);
     item_imgEl.innerHTML = `<img
     src="${item.img}"
     alt="${item.title}"
