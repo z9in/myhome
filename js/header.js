@@ -28,5 +28,5 @@ toggle.addEventListener("click", () => {
 let pdfDown = document.getElementById('pdf');
 
 pdfDown.addEventListener('click',()=>{
-    window.comfirm('다운로드하시겠습까?')
+    window.confirm('다운로드하시겠습까?')
 })
